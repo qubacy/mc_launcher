@@ -1,0 +1,52 @@
+* {
+    font-family: Arial;
+}
+
+QPushButton#customButton {
+    font-weight: bold;
+    color: #fff;
+    
+    background:  qlineargradient(x1:1, y1:1, x2:0, y2:0,
+                                 stop:0 rgb(127,216,130),
+                                 stop:0.8 rgb(85,178,75));
+    border: none;
+    
+    padding: 5px 0;
+}
+
+QPushButton#customButton:hover {
+    background:  qlineargradient(x1:1, y1:1, x2:0, y2:0,
+                                 stop:0 rgb(85,178,75),
+                                 stop:0.8 rgb(96,163,98));
+}
+
+QLabel#customUserInfoLabel {
+    color: #fff;
+}
+
+QLabel#progressLabel {
+    color: #fff;
+}
+
+QLineEdit#customInput {
+    background-color: rgb(148,190,51);
+    color: #fff;
+    border: none;
+    padding: 5px 2px;
+}
+
+QLineEdit#customInput:disabled {
+    background-color: rgb(163,190,101);
+}
+
+QCheckBox {
+    color: #fff;
+}
+
+QCheckBox::indicator {
+    background-color: #fff;
+}
+
+QCheckBox::indicator:checked {
+    image: url(":/img/check_mark.png");
+}

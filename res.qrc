@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>styles.qss</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>check_mark.png</file>
+        <file>background.jpg</file>
+        <file>backgroundHighRes.jpg</file>
+        <file>icon.png</file>
+    </qresource>
+</RCC>
